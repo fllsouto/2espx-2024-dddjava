@@ -1,0 +1,10 @@
+total 32
+drwxrwxr-x 4 fllsouto fllsouto 4096 Sep 18 20:03 .
+drwxrwxr-x 5 fllsouto fllsouto 4096 Sep 18 19:21 ..
+-rw-rw-r-- 1 fllsouto fllsouto   61 Sep 18 19:20 .LCKpom.xml~
+-rw-rw-r-- 1 fllsouto fllsouto  146 Sep 18 19:20 Makefile
+-rw-rw-r-- 1 fllsouto fllsouto 3221 Sep 18 19:20 PROBLEM.md
+-rw-rw-r-- 1 fllsouto fllsouto    0 Sep 18 20:03 output.txt
+-rw-rw-r-- 1 fllsouto fllsouto 1210 Sep 18 19:20 pom.xml
+drwxrwxr-x 4 fllsouto fllsouto 4096 Sep 18 19:20 src
+drwxrwxr-x 9 fllsouto fllsouto 4096 Sep 18 19:53 target
