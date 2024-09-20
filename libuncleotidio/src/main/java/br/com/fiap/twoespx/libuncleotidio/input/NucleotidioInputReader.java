@@ -61,5 +61,15 @@ public class NucleotidioInputReader {
             return lines;
         }
     }
+
+    // Leitura com o teclado
+    public String readFromKeyboard() {
+        InputStream systemIn = System.in;
+        Scanner scanner = new Scanner(systemIn);
+        System.out.println("Please inser a valid Nucletidio Sequence: ");
+        String line = scanner.nextLine();
+        scanner.close();
+        return line;
+    }
     
 }
