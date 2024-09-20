@@ -1,0 +1,7 @@
+Sequence ACTGAAAAAA
+Sequence Size 10
+A: 7
+C: 1
+T: 1
+G: 1
+

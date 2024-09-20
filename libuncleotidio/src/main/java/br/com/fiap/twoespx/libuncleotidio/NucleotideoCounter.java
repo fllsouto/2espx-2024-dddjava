@@ -2,7 +2,7 @@ package br.com.fiap.twoespx.libuncleotidio;
 
 public class NucleotideoCounter {
     
-    public void count(String entrada) {
+    public String count(String entrada) {
         System.out.println("\n\n------------------------------------");
         System.out.println(":: Lib Uncle Otidio - Nucleotidio Counter Algorithm ::");
 
@@ -42,5 +42,15 @@ public class NucleotideoCounter {
         System.out.println("Total de T :: " + frequenciaT);
         System.out.println("Total de G :: " + frequenciaG);
         System.out.println("------------------------------------\n\n");
+
+        String output = "";
+        output = output.concat("Sequence " + entrada + "\n");
+        output = output.concat("Sequence Size " + entrada.length() + "\n");
+        output = output.concat("A: " + frequenciaA + "\n");
+        output = output.concat("C: " + frequenciaC + "\n");
+        output = output.concat("T: " + frequenciaT + "\n");
+        output = output.concat("G: " + frequenciaG + "\n");
+
+        return output;
     }
 }
