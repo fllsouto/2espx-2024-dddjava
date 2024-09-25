@@ -1,0 +1,6 @@
+Sequence ACTGAAAAAAAAAAAAAAACTAGAGAGAGAG
+Sequence Size 31
+A: 21
+C: 2
+T: 2
+G: 6
