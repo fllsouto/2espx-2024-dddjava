@@ -1,4 +1,4 @@
-package br.com.fiap.twoespx.libunclesampler.libunclesampler;
+package br.com.fiap.twoespwx.libunclesampler.libunclesampler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

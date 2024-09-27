@@ -1,4 +1,4 @@
-package br.com.fiap.twoespx.libunclesampler.libunclesampler;
+package br.com.fiap.twoespwx.libunclesampler.libunclesampler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

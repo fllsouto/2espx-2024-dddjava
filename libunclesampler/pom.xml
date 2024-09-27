@@ -8,7 +8,7 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fiap.twoespx.libunclesampler</groupId>
+	<groupId>br.com.fiap.twoespwx.libunclesampler</groupId>
 	<artifactId>libunclesampler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>libunclesampler</name>
@@ -44,11 +44,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
