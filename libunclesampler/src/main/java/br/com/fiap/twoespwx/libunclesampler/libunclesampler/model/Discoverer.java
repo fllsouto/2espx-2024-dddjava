@@ -139,9 +139,4 @@ public class Discoverer {
     public void setAlive(boolean isAlive) {
         this.isAlive = isAlive;
     }
-
-    
-
-    
-
 }
