@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fiap.twoespwx.libunclesampler.libunclesampler.model.Discoverer;
-import br.com.fiap.twoespwx.libunclesampler.service.DiscovererService;
+import br.com.fiap.twoespwx.libunclesampler.libunclesampler.service.DiscovererService;
 
 @RestController
 @RequestMapping("/discoverer")
@@ -24,5 +24,11 @@ public class DiscovererController {
     @GetMapping(path = "/all")
     public List<Discoverer> getAll() {
         return this.discovererService.findAll();
+    }
+
+    @PostMapping(path = "/create")
+    public Discoverer create(@RequestBody DiscovererFormInput input) {
+        Discoverer newDiscoverer = discovererService.create(input);
+        return newDiscoverer;
     }
 }
